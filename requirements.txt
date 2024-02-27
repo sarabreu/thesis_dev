@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+scikit-fuzzy
+ipykernel
+scikit-learn-extra
+chardet
+pyod
