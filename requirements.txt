@@ -8,3 +8,4 @@ scikit-fuzzy
 ipykernel
 scikit-learn-extra
 pyod
+clusteval
