@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "thesis-dev"
+version = "0.1.0"
+description = ""
+authors = ["sarabreu <sarabreu1@hotmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+scipy = "^1.12.0"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+scikit-fuzzy = "^0.4.2"
+ipykernel = "^6.29.3"
+scikit-learn-extra = "^0.3.0"
+pyod = "^1.1.3"
+clusteval = "^2.2.1"
+clustersupport = {path = "ClusterSupport"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
