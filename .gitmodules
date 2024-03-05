@@ -1,0 +1,3 @@
+[submodule "ClusterSupport"]
+	path = ClusterSupport
+	url = git@github.com:sarabreu/ClusterSupport.git
