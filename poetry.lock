@@ -1444,6 +1444,22 @@ files = [
 tests = ["pytest"]
 
 [[package]]
+name = "pyclustering"
+version = "0.10.1.2"
+description = "pyclustring is a python data mining library"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "pyclustering-0.10.1.2.tar.gz", hash = "sha256:8a98fd299fcc1e21b7b7c963275162dd7194aa3d921aa66d313775597cf833d1"},
+]
+
+[package.dependencies]
+matplotlib = ">=3.0.0"
+numpy = ">=1.15.2"
+Pillow = ">=5.2.0"
+scipy = ">=1.1.0"
+
+[[package]]
 name = "pycparser"
 version = "2.21"
 description = "C parser in Python"
@@ -2166,4 +2182,4 @@ test = ["hypothesis", "packaging", "pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "24c5b6c3576768ae873525fd2fa2a89e93135797447dd16955be699d52c0b194"
+content-hash = "d811c34d79b33abb08c54a78d0dd4f72c33ce923d68aba9ed2c424094a606ef8"

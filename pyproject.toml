@@ -21,6 +21,7 @@ pyod = "^1.1.3"
 clusteval = "^2.2.1"
 clustersupport = {path = "ClusterSupport"}
 pymc = "^5.10.4"
+pyclustering = "^0.10.1.2"
 
 
 [build-system]
