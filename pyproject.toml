@@ -22,6 +22,7 @@ clusteval = "^2.2.1"
 clustersupport = {path = "ClusterSupport"}
 pymc = "^5.10.4"
 pyclustering = "^0.10.1.2"
+cython = "^3.0.9"
 
 
 [build-system]
